@@ -1,0 +1,137 @@
+/****************tag selectors*******************/
+body {
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 200px;
+  color: #1a374d;
+}
+h3 {
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  display: inline-block;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+}
+/****************class selectors*****************/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.background-image {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.rect {
+  background-color: #f8f9fe;
+  border-radius: 20px;
+  width: 25%;
+  height: 75%;
+  margin: auto;
+  box-shadow: 0px 10px 70px #ccd6fb;
+}
+.hero {
+  background-image: url(../images/illustration-hero.svg);
+  background-size: cover;
+  height: 30%;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.text {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 10px;
+}
+.price {
+  background-color: #f4f6ff;
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 150px;
+  height: 15%;
+  border-radius: 10px;
+}
+.music-icon {
+  padding: 10px;
+  padding-top: 10px;
+  float: left;
+}
+.dll {
+  text-align: center;
+  position: relative;
+  top: 220px;
+  color: #7b8198;
+  font-size: 12px;
+}
+.ann-price {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  padding-top: 26px;
+}
+.p2 {
+  color: #7b8198;
+}
+.p3 {
+  display: inline-block;
+  position: relative;
+  left: 140px;
+  bottom: 42%;
+  font-size: 10px;
+}
+.payment {
+  background-color: hsl(245, 75%, 52%);
+  display: flex;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  top: 170px;
+  box-shadow: 0px 10px 20px #bfb8f1;
+}
+.payment:hover {
+  background-color: #766cf1;
+  text-decoration: none;
+}
+.cancel {
+  color: #7b8198;
+  font-size: 13px;
+  font-family: "Red Hat Display", sans-serif;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 190px;
+  text-decoration: none;
+}
+.ph:hover {
+  color: black;
+  cursor: pointer;
+}
+.ph2:hover {
+  cursor: pointer;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 64rem) {
+  .rect {
+    width: 50%;
+  }
+}
